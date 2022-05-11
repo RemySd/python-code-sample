@@ -1,6 +1,8 @@
 import pandas as pd
 
-df = pd.read_csv("sample.csv")
+pd.options.display.float_format = '{:.3f}'.format
+
+df=pd.concat(map(pd.read_csv,['sample_2.csv','sample.csv']))
 
 times = pd.to_datetime(df.timestamp)
 
