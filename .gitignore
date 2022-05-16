@@ -1,8 +1,8 @@
 .idea
 
-pandas_tool/bfly.csv
-pandas_tool/bfnx.csv
-pandas_tool/stmp.csv
-pandas_tool/SDA_Projet1.pdf
+pandas_tool/vwap/bfly.csv
+pandas_tool/vwap/bfnx.csv
+pandas_tool/vwap/stmp.csv
+pandas_tool/vwap/SDA_Projet1.pdf
 
 .DS_Store
