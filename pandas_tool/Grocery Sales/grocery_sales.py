@@ -82,7 +82,7 @@ plt.show()
 
 # total sales by manager
 fig, ax = plt.subplots(figsize=(10, 5))
-grouped_data = final_df.groupby(["Manager Number"])['Sales'].sum()
+grouped_data = final_df.groupby(["Manager"])['Sales'].sum()
 grouped_data.plot(kind = 'bar', ax = ax)
 plt.title('Total Sales ($) By Manager')
 plt.show()
